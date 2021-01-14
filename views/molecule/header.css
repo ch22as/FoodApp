@@ -1,0 +1,40 @@
+header{
+    
+    border: solid 1px black;
+}
+
+.header{
+    grid-area: header;
+    width: auto;
+    height: 100px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .header-title{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+        .title{
+            font-size: 1.5rem;
+        }
+
+        .subtitle{
+            font-size: 0.9rem;
+            color: #b4b4b4;
+    
+        }
+
+    .logo{
+        width: 15%;
+        height: 60%;
+    }
